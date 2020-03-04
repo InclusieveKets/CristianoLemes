@@ -1,7 +1,6 @@
 ## Initial Class FabZero
 
-
-![FabLab](imgs/Fab_Lab_logo.svg)
+![FabLab](imgs/Fab_Lab_logo.svg.png)
 
 ### Introduction to FabZero
 
