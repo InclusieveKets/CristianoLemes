@@ -1,5 +1,5 @@
-#Initial Class FabZero
+## Initial Class FabZero
 
-## Introduction to FabZero
+### Introduction to FabZero
 
-## Overview of Git and GitHub
+### Overview of Git and GitHub
