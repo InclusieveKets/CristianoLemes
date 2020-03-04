@@ -38,4 +38,4 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 ## Sections
 
-[link](section01)
+[Section 01](section01)
