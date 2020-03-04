@@ -2,4 +2,23 @@ theme: jekyll-theme-dinky
 
 title: FabZero - Web Page Cristiano Lemes
 locale: en_US
+logo: #not defined yet.
 description: Work plan followed in the FabZero Course 2020/1.
+
+owner:
+  name: Cristiano Lemes
+  avatar: #bio-photo.jpg
+  bio: "Graduated in Computer Science and Master in Science."
+  email: cristianoinaciolemes@gmail.com
+  # Do not include the @ symbol in your Twitter username
+  twitter: @cristiano.i.lemes
+  linkedin: #username
+  github: clemes
+  orcid: # ID Number (ex. 0000-0000-0000-0000)
+  researchgate: #username
+  mendeley: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    scholar: #id
