@@ -13,3 +13,33 @@
 - hystory of Git and GitHub.
 - important features.
 - show examples.
+
+### Testing features of Github
+
+```
+New text box design.
+```
+
+```html
+<html>
+	<header>Title of the web page</header>
+	<body>
+		Web site content.
+	</body>
+</html>
+```
+
+
+```java
+public class Calculator 
+{
+	private Integer a, b, result;
+	public Calculator(){}
+	public Integer sum(Integer a, Integer b){
+		this.a = a;
+		this.b = b;
+		this.result = a + b;
+		return this.result;
+	}
+}
+```
