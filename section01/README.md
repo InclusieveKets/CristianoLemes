@@ -1,5 +1,8 @@
 ## Initial Class FabZero
 
+
+![FabLab](imgs/Fab_Lab_logo.svg)
+
 ### Introduction to FabZero
 
 - Who founded, when it was created, where it exists.
