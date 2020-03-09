@@ -1,3 +1,8 @@
+---
+layout: page
+title: presentations
+---
+
 # Presentations
 
 Hi, I am Cristiano Lemes, brazilian, graduate in Computer Science by Federal University of Uberlândia and master in Science by University of São Paulo. My master dissertation focused on Artificial Intelligence, which the title is _Anytime Instance based algorithm for data stream classification_. Part of my master was developed at the University of Porto at Medicine Faculty.
