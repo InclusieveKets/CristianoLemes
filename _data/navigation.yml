@@ -3,10 +3,10 @@
   url: /
 
 - name: About me
-  url: /about/
+  url: /about
 
 - name: Section 01
-  url: /section01/
+  url: /section01
 
 - name: Help
-  url: /help/
+  url: /help
