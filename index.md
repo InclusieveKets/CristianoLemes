@@ -9,11 +9,11 @@ This website is maintained by Cristiano Lemes for the first edition of FabZero c
 
 ## Menu
 
-- [Homepage](/)
-- [Presentation]({{ "/presentation" | absolute_url }})
+- [Homepage]({{ "/" | absolute_url }})
+- [Presentation]({{ "/about" | absolute_url }})
 - Sections
-	--[Section 01](/section01)
-- [Help](/help)
+	- [Section 01]({{ "/section01" | absolute_url }})
+- [Help]({{ "/help" | absolute_url }})
 
 ## Sections
 
