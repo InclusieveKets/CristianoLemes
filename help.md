@@ -1,6 +1,6 @@
 ---
-layout: page
-title: help
+layout: default
+title: Help with Jekyll
 ---
 
 ## Welcome to GitHub Pages

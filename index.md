@@ -1,11 +1,9 @@
 ---
-layout: page
+layout: default
 title: Welcome to clemes website
 ---
 
 ## 01 Welcome to clemes website
-
-## {{ page.title }}
 
 This website is maintained by Cristiano Lemes for the first edition of FabZero course.
 
@@ -14,7 +12,7 @@ This website is maintained by Cristiano Lemes for the first edition of FabZero c
 - [Homepage](/)
 - [Presentation]({{ "/presentation" | absolute_url }})
 - Sections
-	-[Section 01](/section01)
+	--[Section 01](/section01)
 - [Help](/help)
 
 ## Sections

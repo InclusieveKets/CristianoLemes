@@ -1,6 +1,6 @@
 ---
-layout: page
-title: presentations
+layout: default
+title: About clemes
 ---
 
 # Presentations
