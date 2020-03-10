@@ -3,7 +3,7 @@ layout: default
 title: Help with Jekyll
 ---
 
-#Help
+# Help
 
 ## Welcome to GitHub Pages
 
