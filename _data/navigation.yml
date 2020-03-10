@@ -1,12 +1,12 @@
 # Site navigation links
-- title: Home
+- name: Home
   url: /
 
-- title: About me
+- name: About me
   url: /about/
 
-- title: Section 01
+- name: Section 01
   url: /section01/
 
-- title: Help
+- name: Help
   url: /help/

@@ -1,3 +1,13 @@
+
+<nav>
+  {% for item in site.data.navigation %}
+    <a href="{{ item.url | absolute_url }}" {% if page.url == item.url %}style="color: red;"{% endif %}>
+      {{ item.name }}
+    </a>
+  {% endfor %}
+</nav>
+
+<!-- Old version of the navigation page
 {% assign home_url = "/" | absolute_url %}
 {% assign about_url = "/about" | absolute_url %}
 {% assign help_url = "/help" | absolute_url %}
@@ -6,4 +16,4 @@
   <a href="{{ home_url }}" {% if page.url == home_url %}style="color: red;"{% endif %}>Home</a>
   <a href="{{ about_url }}" {% if page.url == about_url %}style="color: red;"{% endif %}>About clemes</a>
   <a href="{{ help_url }}"{% if page.url == help_url %}style="color: red;"{% endif %}>Help Jekyll</a>
-</nav>
+</nav> -->
