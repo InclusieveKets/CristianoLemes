@@ -1,19 +1,22 @@
+
 ---
 layout: page
-title: index
+title: Welcome to clemes website
 ---
 
-## Welcome to clemes website
+## 01 Welcome to clemes website
+
+## {{ page.title }}
 
 This website is maintained by Cristiano Lemes for the first edition of FabZero course.
 
 ## Menu
 
 - [Homepage](/)
-- [Presentation](/presentation/)
+- [Presentation]({{ "/presentation" | absolute_url }})
 - Sections
-	-[Section 01](/section01/)
-- [Help](/help/)
+	-[Section 01](/section01)
+- [Help](/help)
 
 ## Sections
 
