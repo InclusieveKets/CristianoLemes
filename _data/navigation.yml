@@ -8,5 +8,8 @@
 - name: Section 01
   url: /section01
 
+- name: Blog
+  url: /blog
+
 - name: Help
   url: /help
