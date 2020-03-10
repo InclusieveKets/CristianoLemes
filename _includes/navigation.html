@@ -1,4 +1,9 @@
+{% assign home_url = "/" | absolute_url %}
+{% assign about_url = "/about" | absolute_url %}
+{% assign help_url = "/help" | absolute_url %}
+
 <nav>
-  <a href="{{ "/" | absolute_url }}">Home</a>
-  <a href="{{ "/about" | absolute_url }}">About</a>
+  <a href="{{ home_url }}" {% if page.url == home_url %}style="color: red;"{% endif %}>Home</a>
+  <a href="{{ about_url }}" {% if page.url == about_url %}style="color: red;"{% endif %}>About clemes</a>
+  <a href="{{ help_url }}"{% if page.url == help_url %}style="color: red;"{% endif %}>Help Jekyll</a>
 </nav>
