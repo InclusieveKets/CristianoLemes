@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome to clemes jekyll website
+title: Welcome to clemes website | by Jekyll
 ---
 
 ## Welcome to clemes website

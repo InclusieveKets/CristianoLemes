@@ -1,10 +1,10 @@
 
 <nav>
   {% for item in site.data.navigation %}
-  	{{% assign link = item.url | absolute_url %}}
+  	{% assign link = item.url | absolute_url %}
     <a href="{{ link }}" {% if page.url == link %}class="current"{% endif %}>
       {{ item.name }}
-    </a>
+    </a> {{ link }}
   {% endfor %}
 </nav>
 
