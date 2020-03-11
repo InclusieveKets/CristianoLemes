@@ -3,10 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/css/styles.css" | absolute_url }}">
   </head>
-  <body class="content">
-  	{% include navigation.html %}
-    {{ content }}
+  <body>
+  	<!-- <div id="header">
+		<div id="headerTitle">
+			<tiles:insertAttribute name="header" />
+		</div>
+	</div> -->
+	<div id="menu">
+		{% include navigation.html %}
+	</div>
+	<div id="content">
+		{{ content }}
+	</div>
+	<!-- <div id="footer">
+		<tiles:insertAttribute name="footer" />
+	</div> -->
+
+    
   </body>
 </html>
