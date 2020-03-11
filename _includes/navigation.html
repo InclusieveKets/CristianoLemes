@@ -4,7 +4,7 @@
   	{% assign link = item.url | absolute_url %}
     <a href="{{ link }}" {% if page.url == link %}class="current"{% endif %}>
       {{ item.name }}
-    </a> 
+    </a> / 
   {% endfor %}
 </nav>
 
