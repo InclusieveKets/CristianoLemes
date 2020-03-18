@@ -1,15 +1,24 @@
 # Site navigation links
 - name: Home
   url: /
+  group: general
 
 - name: About me
   url: /about
-
-- name: Section 01
-  url: /section01
+  group: general
 
 - name: Blog
   url: /blog
+  group: general
 
 - name: Help
   url: /help
+  group: general
+
+- name: Section 01
+  url: /section01
+  group: sections
+
+- name: Section 02
+  url: /section02
+  group: sections
