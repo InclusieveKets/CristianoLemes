@@ -11,19 +11,20 @@
 			<br/>
 		{% endif %}
 	{% endfor %}
-	<p>Sections</p>
-	<ul>
-		{% for item in site.data.navigation %}
-			{% if item.group == "sections" %}
-				{% assign link = item.url | absolute_url %}
-				<li><a href="{{ link }}" {% if page.url == link %}class="current"{% endif %}>
-					{{ item.name }}
-				</a></li>
-				<br/>
-			{% endif %}
-		{% endfor %}
-	</ul>
+	Sections
+	<br/>
+	{% for item in site.data.navigation %}
+		{% if item.group == "sections" %}
+			{% assign link = item.url | absolute_url %}
+			&ensp;+<a href="{{ link }}" {% if page.url == link %}class="current"{% endif %}>
+				{{ item.name }}
+			</a>
+			<br/>
+		{% endif %}
+	{% endfor %}
 </nav>
+
+<!-- tab character in HTML: &#9;-->
 
 <!-- Old version of the navigation page
 {% assign home_url = "/" | absolute_url %}

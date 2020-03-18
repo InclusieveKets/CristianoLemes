@@ -1,3 +1,8 @@
+---
+layout: default
+title: Section 02 - Laser cut machine
+---
+
 # Laser cut machine
 
 The second section started with a brainstorm for the final project of the course.

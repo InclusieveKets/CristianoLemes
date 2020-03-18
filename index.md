@@ -7,6 +7,3 @@ title: Welcome to clemes website | by Jekyll
 
 This website is maintained by Cristiano Lemes for the first edition of FabZero course.
 
-## Sections
-
-[Section 01](section01)
