@@ -14,7 +14,7 @@
 	<p>Sections</p>
 	<ul>
 		{% for item in site.data.navigation %}
-			{% if item.group == "section" %}
+			{% if item.group == "sections" %}
 				{% assign link = item.url | absolute_url %}
 				<li><a href="{{ link }}" {% if page.url == link %}class="current"{% endif %}>
 					{{ item.name }}
