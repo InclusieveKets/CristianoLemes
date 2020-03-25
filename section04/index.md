@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Section 04 - Basic of electronics
-use_match: true
+use_math: true
 ---
 
 # Basic of electronics
