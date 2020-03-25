@@ -5,8 +5,6 @@ locale: en_US
 logo: #not defined yet.
 description: Work plan followed in the FabZero Course 2020/1.
 
-markdown: kramdown
-
 owner:
   name: Cristiano Lemes
   avatar: #bio-photo.jpg
