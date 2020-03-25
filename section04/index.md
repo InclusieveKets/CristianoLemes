@@ -36,6 +36,6 @@ $$
 $$
 
 
-Test omega symbol: &#x3a9; 
+Test 2 omega symbol: &#x3a9; 
 
 ![FabLab](imgs/Fab_Lab_logo.png)
