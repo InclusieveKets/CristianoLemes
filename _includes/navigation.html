@@ -1,29 +1,30 @@
 <div class="side-bar">
+
+	<nav>
+		{% for item in site.data.navigation %}
+			{% if item.group == "general" %}
+				{% assign link = item.url | absolute_url %}
+				<a href="{{ link }}" {% if page.url == link %}class="current"{% endif %}>
+					{{ item.name }}
+				</a>
+				<br/>
+			{% endif %}
+		{% endfor %}
+		<hr/>
+		Sections
+		<br/>
+		{% for item in site.data.navigation %}
+			{% if item.group == "sections" %}
+				{% assign link = item.url | absolute_url %}
+				&ensp;+<a href="{{ link }}" {% if page.url == link %}class="current"{% endif %}>
+					{{ item.name }}
+				</a>
+				<br/>
+			{% endif %}
+		{% endfor %}
+	</nav>
+
 </div>
-
-<nav>
-	{% for item in site.data.navigation %}
-		{% if item.group == "general" %}
-			{% assign link = item.url | absolute_url %}
-			<a href="{{ link }}" {% if page.url == link %}class="current"{% endif %}>
-				{{ item.name }}
-			</a>
-			<br/>
-		{% endif %}
-	{% endfor %}
-	Sections
-	<br/>
-	{% for item in site.data.navigation %}
-		{% if item.group == "sections" %}
-			{% assign link = item.url | absolute_url %}
-			&ensp;+<a href="{{ link }}" {% if page.url == link %}class="current"{% endif %}>
-				{{ item.name }}
-			</a>
-			<br/>
-		{% endif %}
-	{% endfor %}
-</nav>
-
 <!-- tab character in HTML: &#9;-->
 
 <!-- Old version of the navigation page

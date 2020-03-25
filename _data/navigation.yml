@@ -26,3 +26,7 @@
 - name: Section 03
   url: /section03
   group: sections
+
+- name: Section 04
+  url: /section04
+  group: sections

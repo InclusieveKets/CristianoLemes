@@ -4,22 +4,27 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" type="text/css" href="{{ "/assets/css/styles.css" | absolute_url }}">
+    <link href="/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet" type="text/css" media="all">
+    {% if page.use_math %}
+      {% include mathjax_support %}
+    {% endif %}
   </head>
   <body>
-  	<!-- <div id="header">
+  	<div id="header">
 		<div id="headerTitle">
-			<tiles:insertAttribute name="header" />
+			<p>Fabzero</p>
 		</div>
-	</div> -->
+	</div>
 	<div id="menu">
 		{% include navigation.html %}
 	</div>
 	<div id="content">
 		{{ content }}
 	</div>
-	<!-- <div id="footer">
-		<tiles:insertAttribute name="footer" />
-	</div> -->
+	<div id="footer">
+		Maintained by Cristiano Lemes
+	</div>
 
     
   </body>

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About clemes (title)
+title: About clemes
 ---
 
 # About clemes
