@@ -1,0 +1,285 @@
+I"�"
+<h1 id="basic-of-electronics">Basic of electronics</h1>
+
+<p>The class took place by Zoom where Bruce Helsen could share his knowledge and experience with everyone.
+Basically the class was organazied in the following parts: (i) Basics concepts in electronics circuits; (ii) Measurements tools that supports electronics; (iii) Basics components used to design a circuit; and (iv) How to apply the theory in practice to choose the correct component when designing a circuit including some examples of Transistor and Mosfet.
+Shortly we got the idea of (vi) Motors and (vii) Buzzers.</p>
+
+<h2 id="basics-concepts">Basics concepts</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Concept</th>
+      <th>Symbol</th>
+      <th>Unit</th>
+      <th>Symbol</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Resistence</td>
+      <td>R</td>
+      <td>Ohm</td>
+      <td>Ω</td>
+    </tr>
+    <tr>
+      <td>Voltage</td>
+      <td>U</td>
+      <td>Volts</td>
+      <td>V</td>
+    </tr>
+    <tr>
+      <td>Current</td>
+      <td>I</td>
+      <td>Ampere</td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>Eletrical power</td>
+      <td>P</td>
+      <td>.</td>
+      <td>.</td>
+    </tr>
+    <tr>
+      <td>Induction</td>
+      <td>L</td>
+      <td>Henry</td>
+      <td>H</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>It was presented the resistence values for different types or materials.</p>
+
+<p>Important equations was introduced as well.</p>
+
+<ul>
+  <li>U = R * I</li>
+  <li>P = U * I</li>
+  <li>P = U^2 / R</li>
+</ul>
+
+<h2 id="measurements-tools">Measurements tools</h2>
+
+<h3 id="power-supply">Power supply</h3>
+
+<ul>
+  <li>Generate power for the electronic circuit.</li>
+  <li>It can be from different types, from old power supply for computers, to a phone charger.</li>
+</ul>
+
+<h3 id="multimeter">Multimeter</h3>
+
+<ul>
+  <li>Used to measure the voltage, current, or resistence of a circuit.</li>
+  <li>It is necessary to connect the wires correctly to get the right measurements.</li>
+</ul>
+
+<h3 id="oscilloscope">Oscilloscope</h3>
+
+<ul>
+  <li>Measure only voltage but in real time.</li>
+  <li>It shows the waves of its variation over the time.</li>
+</ul>
+
+<h3 id="functie-generator">Functie generator</h3>
+
+<h2 id="basic-components">Basic components</h2>
+
+<p>It was shown several components that can be embedded into the eletronic circuit including and pratical simulation of how each component iteracts in the circuit.</p>
+
+<h3 id="resistor-weerstanden">Resistor (Weerstanden)</h3>
+
+<p><img src="http://localhost:4000/assets/images/basic_components/resistor.png" alt="resistor_img" /></p>
+
+<ul>
+  <li>It consumes the voltage in a circuit.</li>
+  <li>Exist several types of resistors.
+    <ul>
+      <li>Adjustable resistor - potentiometer</li>
+      <li>Flexible resistors</li>
+    </ul>
+  </li>
+  <li>LDR - Light Dependent Resistor.</li>
+  <li>An important property is its temperature as consequence of consuming the voltage.</li>
+  <li>The colors code for resistor indicate how strong they are. It was shown a table with different colors and their values.</li>
+</ul>
+
+<h3 id="power-supply-bron">Power supply (Bron)</h3>
+
+<p><img src="http://localhost:4000/assets/images/basic_components/power_supply.png" alt="power_supply_img" /></p>
+
+<ul>
+  <li>It can be batteries or any energy source.</li>
+</ul>
+
+<h3 id="switches-schakelaar">Switches (Schakelaar)</h3>
+
+<p><img src="http://localhost:4000/assets/images/basic_components/switch.png" alt="switch_img" /></p>
+
+<ul>
+  <li>Used to close or open the electronic circuit.</li>
+  <li>Types
+    <ul>
+      <li>normal open/close.</li>
+      <li>bistabiel/drukknop.</li>
+      <li>meer polig;</li>
+      <li>wisselschakelaar (SPDT - single pin)</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="inductors-spoel">Inductors (Spoel)</h3>
+
+<p><img src="http://localhost:4000/assets/images/basic_components/inductor.png" alt="inductor_img" /></p>
+
+<h3 id="capacitors-condensator">Capacitors (Condensator)</h3>
+
+<p><img src="http://localhost:4000/assets/images/basic_components/capacitor.png" alt="capacitor_img" /></p>
+
+<ul>
+  <li>Used to save (little) energy to perform functionalities when there is not power supply.</li>
+</ul>
+
+<h3 id="relay-relais">Relay (Relais)</h3>
+
+<p><img src="http://localhost:4000/assets/images/basic_components/relay.png" alt="relay_img" /></p>
+
+<ul>
+  <li>Switch that can be controled using energy;</li>
+</ul>
+
+<h3 id="diode">Diode</h3>
+
+<p><img src="http://localhost:4000/assets/images/basic_components/LED.png" alt="LED_img" /></p>
+
+<ul>
+  <li>Let the current flow only in one direction;</li>
+  <li>Exist different kinds of diodes
+    <ul>
+      <li>zenerdiode(stabilsator)</li>
+      <li>schotkeydiode()</li>
+      <li>photodiode</li>
+    </ul>
+  </li>
+  <li>LED is a common exampe of diode.</li>
+</ul>
+
+<h3 id="transistor">Transistor</h3>
+
+<p><img src="http://localhost:4000/assets/images/basic_components/transistor.png" alt="transistor_img" /></p>
+
+<ul>
+  <li>Used to amplify and control the current.</li>
+  <li>It needs a protective resistor.</li>
+  <li>Important equations:
+    <ul>
+      <li>I_c = I_b * H_fe</li>
+      <li>I_e = I_c + I_b</li>
+    </ul>
+  </li>
+  <li>The transistor most used is the BC547.</li>
+  <li>Summary
+    <ul>
+      <li>H_fe DC current gain</li>
+      <li>V_be Base emitter forward voltage</li>
+      <li>I_c Collector Currentor</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="mosfet">Mosfet</h3>
+
+<p><img src="http://localhost:4000/assets/images/basic_components/mosfet.png" alt="mosfet_img" /></p>
+
+<ul>
+  <li>
+    <p>The <em>metal–oxide–semiconductor field-effect transistor</em> (MOSFET, MOS-FET, or MOS FET), also known as the metal–oxide–silicon transistor (MOS transistor, or MOS), is a type of insulated-gate field-effect transistor (IGFET) that is fabricated by the controlled oxidation of a semiconductor, typically silicon.</p>
+  </li>
+  <li>Voltage controller for the current flowing;</li>
+  <li>The mosfet most common is of the type <em>N channe</em>
+    <ul>
+      <li>Enhancement</li>
+      <li>Enhancement no bulk semi</li>
+      <li>Depletion</li>
+    </ul>
+  </li>
+  <li>Summary
+    <ul>
+      <li>V_ds drain’source breakdown voltage</li>
+      <li>V_gs(th) gate threshold voltage</li>
+      <li>V_gs(on) static drain-source on-</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="voltage-regulator-spanningsregelaar">Voltage regulator (Spanningsregelaar)</h3>
+
+<ul>
+  <li>A voltage regulator is a system designed to automatically maintain a constant voltage level.</li>
+  <li>It regulates the voltage of the circuit to a level that do not broke the components.</li>
+  <li>It consumes the excedent voltage used in the component.</li>
+  <li>A voltage regulator may use a simple feed-forward design or may include negative feedback.</li>
+  <li>It may use an electromechanical mechanism, or electronic components.
+Depending on the design, it may be used to regulate one or more AC or DC voltages.</li>
+</ul>
+
+<h3 id="voltage-divider-spanningsdeler">Voltage divider (Spanningsdeler)</h3>
+
+<ul>
+  <li>A voltage divider (also known as a potential divider) is a passive linear circuit that produces an output voltage (V_out) that is a fraction of its input voltage (V_in).</li>
+  <li>Voltage division is the result of distributing the input voltage among the components of the divider.</li>
+  <li>A simple example of a voltage divider is two resistors connected in series, with the input voltage applied across the resistor pair and the output voltage emerging from the connection between them.</li>
+</ul>
+
+<h2 id="pratical-examples">Pratical examples</h2>
+
+<ul>
+  <li>How to calculate the resistor to not burn a LED.
+    <ul>
+      <li>
+        <p>U_r = U_bronspanning - U_LED / stroom door LED</p>
+      </li>
+      <li>U_b = 12V; U_led=1.78V; I_led=10mA</li>
+      <li>U_r = 12V - 1.78 = 10.22</li>
+      <li>R = U / I = 10.22 / 0.01 = 1022Ω</li>
+    </ul>
+  </li>
+  <li>
+    <p>How to use transistor/mosfet
+  See example for Transistor and calculation done during class.
+  See example for Mosfet.</p>
+  </li>
+  <li>Important use a diode to avoid burn the relay;</li>
+  <li>Calculate the resistor in order to turn on the relay;</li>
+</ul>
+
+<h2 id="motors-motoren">Motors (Motoren)</h2>
+
+<ul>
+  <li>DC motoren - normal motor (turn around in circle)</li>
+  <li>Servo Motoren - like an arm</li>
+  <li>Stappen motoren - control how the motor turn around in circle.</li>
+</ul>
+
+<h2 id="buzzer">Buzzer</h2>
+
+<ul>
+  <li>Change shape and create voltage;</li>
+</ul>
+
+<h2 id="opdracht-task-for-next-week">Opdracht (task for next week)</h2>
+<ul>
+  <li>Try to design a circuit.</li>
+</ul>
+
+<h2 id="websites">Websites</h2>
+
+<ul>
+  <li>Software for seeing electronic circuits: <a href="https://www.falstad.com/circuit/">falstad circuit simulator</a></li>
+  <li>voltage divider calculator</li>
+  <li><a href="www.mouser.be/semiconductors/">Mouser semiconductors</a></li>
+</ul>
+
+:ET

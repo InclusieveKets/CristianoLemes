@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name kets_relay)(type Legacy)(uri ${KIPRJMOD}/kets_relay.lib)(options "")(descr ""))
+)

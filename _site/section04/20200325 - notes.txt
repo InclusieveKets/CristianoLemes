@@ -1,0 +1,97 @@
+-Teacher: Bruce Helsen
+- we are mostly work with Arduino.
+
+-Basics about electronics
+	physical concepts (units)
+		resistences 					-> symbol: R -> unit: Ohm	Symbol: \omega
+Grootheid: spanning (voltage) 			-> symbol: U	unit: V
+		Stroom (current) 				-> symbol: I	unit: Ampare A
+		Vermogen (eletrical power)		-> symbol: P 	unit: 
+		Zelfinductie(Induction)			-> symbol: L 	unit: Henry		symbol: H
+	resistences of differents materials
+	Equations
+		U = R x I	(i)		I = U / R
+		P = U x I 	(ii)	I = P / U
+		P = U^2 / R (iii)
+
+websites:
+-software for seeing electronic circuits: falstad circuit simulator (https://www.falstad.com/circuit/)
+-voltage divider calculator
+-www.mouser.be/semiconductors/
+
+-Tools to support electronics circuit (measurements tools)
+	Power supply - generate power to the circuit; fancy power supply; old power supply for computer; phone charger;
+	Muiltimeter	- to measure the voltage and current and resistence; we need to connect the wires correct to get the right measurement.
+	Oscilloscoop - measure only voltage in real time and show the waves of its variation.
+	Functie generator - 
+
+-Basic components
+	Weerstanden (Resistor)
+		regelbaar (adjustable resistor) - potentiometer
+		Variabel: 
+		LDR: light dependent resistor.
+		Temp gevoelig (temperature resistor)
+		Flexible resistors
+		Kleurcodes(colors codes for resistors)
+	Bron (power supply)
+		batteries, or any energy sources.
+	Schakelaar (switches)
+		used to close or open the electronic circuit.
+		Soorten: normal open/close; bistabiel/drukknop; meer polig; wisselschakelaar (SPDT - single pin)
+	Spoel (Inductors)
+	Condensator (capacitors)
+		Used to save (little) energy to perform functionalities when there is not power supply;
+	Relais(Relay)
+		switch that can be controled using energy;
+	Diode
+		let the current flow only in one direction;
+		diferent kinds of diodes: zenerdiode(stabilsator), schotkeydiode(), photodiode
+		LED is a real exampe of diode;
+	Transistor
+		Amplify the current; current control;
+		need a protective resistor.
+		equations:	I_c = I_b x H_fe
+					I_e = I_c + I_b
+		BC547 is most used.
+		summary
+			H_fe DC current gain
+			V_be Base emitter forward voltage
+			I_c Collector Currentor
+	Mosfet()
+		Voltage controller for the current flowing;
+		N channe (enhancement, enhancement no bulk semi, depletion)
+		summary
+			V_ds drain'source breakdown voltage
+			V_gs(th) gate threshold voltage
+			V_gs(on) static drain-source on-
+	Spanningsregelaar
+		Voltage regulator; it consumes the excedent voltage used in the component.
+	Spanningsdeler
+		Voltage dividor;
+
+how to calculate the resistor to not burn a LED
+	U_r = U_bronspanning - U_LED / stroom door LED
+
+	U_b = 12V; U_led=1.78V; I_led=10mA
+	U_r = 12V - 1.78 = 10.22
+	R = U / I = 10.22 / 0.01 = 1022\omega
+
+how to use transistor to switch larger controler
+Transistor/Mosfet
+	See example for Transistor and calculation done during class.
+	See example for Mosfet.
+
+important use a diode to avoid burn the relay;
+calculate the resistor in order to turn on the relay;
+
+Motoren(motors):
+	DC motoren - normal motor (turn around in circle)
+	Servo Motoren - like an arm
+	Stappen motoren - control how the motor turn around in circle.
+
+Buzzer
+	change shape and create voltage;
+
+Opdracht (task for next week)
+	try to design a circuit.
+	

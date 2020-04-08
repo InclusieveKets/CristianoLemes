@@ -57,7 +57,7 @@ It was shown several components that can be embedded into the eletronic circuit 
 
 ### Resistor (Weerstanden)
 
-![resistor_img](/assets/images/basic_components/resistor.png)
+![resistor_img]({{imgs_dir}}/resistor.png)
 
 * It consumes the voltage in a circuit.
 * Exist several types of resistors.
@@ -69,13 +69,13 @@ It was shown several components that can be embedded into the eletronic circuit 
 
 ### Power supply (Bron)
 
-![power_supply_img](/assets/images/basic_components/power_supply.png)
+![power_supply_img]({{imgs_dir}}/power_supply.png)
 
 * It can be batteries or any energy source.
 
 ### Switches (Schakelaar)
 
-![switch_img](/assets/images/basic_components/switch.png)
+![switch_img]({{imgs_dir}}/switch.png)
 
 * Used to close or open the electronic circuit.
 * Types
@@ -86,23 +86,23 @@ It was shown several components that can be embedded into the eletronic circuit 
 
 ### Inductors (Spoel)
 
-![inductor_img](/assets/images/basic_components/inductor.png)
+![inductor_img]({{imgs_dir}}/inductor.png)
 
 ### Capacitors (Condensator)
 
-![capacitor_img](/assets/images/basic_components/capacitor.png)
+![capacitor_img]({{imgs_dir}}/capacitor.png)
 
 * Used to save (little) energy to perform functionalities when there is not power supply.
 
 ### Relay (Relais)
 
-![relay_img](/assets/images/basic_components/relay.png)
+![relay_img]({{imgs_dir}}/relay.png)
 
 * Switch that can be controled using energy;
 
 ### Diode
 
-![LED_img](/assets/images/basic_components/LED.png)
+![LED_img]({{imgs_dir}}/LED.png)
 
 * Let the current flow only in one direction;
 * Exist different kinds of diodes
@@ -113,7 +113,7 @@ It was shown several components that can be embedded into the eletronic circuit 
 
 ### Transistor
 
-![transistor_img](/assets/images/basic_components/transistor.png)
+![transistor_img]({{imgs_dir}}/transistor.png)
 
 * Used to amplify and control the current.
 * It needs a protective resistor.
@@ -128,9 +128,9 @@ It was shown several components that can be embedded into the eletronic circuit 
 
 ### Mosfet
 
-![mosfet_img](/assets/images/basic_components/mosfet.png)
+![mosfet_img]({{imgs_dir}}/mosfet.png)
 
-* The *metal–oxide–semiconductor field-effect transistor* (MOSFET, MOS-FET, or MOS FET), also known as the metal–oxide–silicon transistor (MOS transistor, or MOS),[1] is a type of insulated-gate field-effect transistor (IGFET) that is fabricated by the controlled oxidation of a semiconductor, typically silicon.
+* The *metal–oxide–semiconductor field-effect transistor* (MOSFET, MOS-FET, or MOS FET), also known as the metal–oxide–silicon transistor (MOS transistor, or MOS), is a type of insulated-gate field-effect transistor (IGFET) that is fabricated by the controlled oxidation of a semiconductor, typically silicon.
 
 * Voltage controller for the current flowing;
 * The mosfet most common is of the type _N channe_

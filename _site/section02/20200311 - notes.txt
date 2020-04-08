@@ -1,0 +1,21 @@
+-ideas for the final project:
+	- synchronize music and lights (changing color of lights as well);
+
+-introduction to laser cut machine;
+-particularities of materials and shapes that laser cut can do.
+-introduction to inkscape (vector image editor).
+
+-homework
+	laser cut a connection
+
+-interessant links
+	Inspiratie opdoen: Pinterest:
+		https://www.pinterest.com/
+	Neil Gerschenfeld over CAD tekeningen maken - in het Engels:
+		https://vimeo.com/389847907
+	Neil Gerschenfeld over Computer Controlled Cutting - in het Engels
+		https://vimeo.com/391123690
+	Tutorials over Inkscape en lasersnijden op De Creatieve STEM
+		http://decreatievestem.be/laser-snijden/
+	Tutorials over snijplotten op De Creatieve STEM
+		http://decreatievestem.be/snijplotten/

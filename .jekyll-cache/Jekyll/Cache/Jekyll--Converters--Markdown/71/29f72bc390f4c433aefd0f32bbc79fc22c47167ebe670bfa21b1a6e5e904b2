@@ -1,0 +1,794 @@
+I"�B<p>[toc]</p>
+
+<p><a href="/@bruuce/kets_elektronica?type=slide">View as slide</a>
+<a href="/@bruuce/kets_elektronica?type=view">View as page</a></p>
+
+<p><img src="https://i.imgur.com/P5sBJf0.png" alt="" /></p>
+
+<hr />
+
+<p><img src="https://i.imgur.com/EFGYjcB.png" alt="" /></p>
+
+<hr />
+
+<h1 id="wat-is-elektronica">Wat is elektronica</h1>
+
+<p><img src="https://i.imgur.com/DwhDWlO.png =x450" alt="" /></p>
+
+<hr />
+
+<p><img src="https://i.imgur.com/F2kkSRS.png" alt="" /></p>
+
+<p>Note: Ik heb jaren ervaring met elektronica / elektriciteit. Ik heb hier 9 jaar theorie over gehad op school. Het is onmogelijk om al die informatie op 3uur over te brengen aan jullie. Daarom is dit een zeer beknopte uitleg op maat van jullie hoogste noden.</p>
+
+<hr />
+
+<h1 id="wat-is-elektronica-voor-jullie">Wat is elektronica voor jullie</h1>
+<p><img src="https://2.bp.blogspot.com/-zFzKWldyzss/W5rL1Z_MzLI/AAAAAAAACTU/pQ0auJxB1_YwWNtBzwcUpixS2u5DYVI4QCLcBGAs/s1600/Arduino_LED.gif" alt="" /></p>
+
+<hr />
+
+<h1 id="basis">Basis</h1>
+
+<hr />
+
+<h2 id="grootheden">Grootheden</h2>
+
+<hr />
+
+<h3 id="weerstand">Weerstand</h3>
+<blockquote>
+  <p>elektrische eigenschap van materialen om de doorgang van elektrische stroom te belemmeren.</p>
+</blockquote>
+
+<table>
+  <thead>
+    <tr>
+      <th>Grootheid</th>
+      <th>Symbool</th>
+      <th>Eenheid</th>
+      <th>Symbool</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Weerstand</td>
+      <td>$R$</td>
+      <td>Ohm</td>
+      <td>$\Omega$</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="https://nl.wikipedia.org/wiki/Elektrische_weerstand_(eigenschap)">Wiki</a></p>
+
+<hr />
+
+<p>Weerstand is een eigenschap van een materiaal.
+<img src="https://i.imgur.com/jwrPk3U.png" alt="" /></p>
+
+<hr />
+
+<h3 id="spanning">Spanning</h3>
+
+<blockquote>
+  <p>Elektrische spanning – ook bekend als het elektrische potentiaalverschil – is het verschil in potentiële elektrische energie tussen twee punten per eenheid van lading.</p>
+</blockquote>
+
+<table>
+  <thead>
+    <tr>
+      <th>Grootheid</th>
+      <th>Symbool</th>
+      <th>Eenheid</th>
+      <th>Symbool</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Spanning</td>
+      <td>$U$</td>
+      <td>Volt</td>
+      <td>$V$</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p><a href="http://tinyurl.com/sgtcohx">falstad</a></p>
+
+<hr />
+
+<h3 id="stroom">Stroom</h3>
+<blockquote>
+  <p>Elektrische stroom is het transport van elektrische lading.</p>
+</blockquote>
+
+<table>
+  <thead>
+    <tr>
+      <th>Grootheid</th>
+      <th>Symbool</th>
+      <th>Eenheid</th>
+      <th>Symbool</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Stroom</td>
+      <td>$I$</td>
+      <td>Ampere</td>
+      <td>$A$</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h3 id="vermogen">Vermogen</h3>
+<blockquote>
+  <p>Elektrisch vermogen is de snelheid waarbij elektrische energie wordt verplaatst.</p>
+</blockquote>
+
+<table>
+  <thead>
+    <tr>
+      <th>Grootheid</th>
+      <th>Symbool</th>
+      <th>Eenheid</th>
+      <th>Symbool</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Vermogen</td>
+      <td>$P$</td>
+      <td>Watt</td>
+      <td>$W$</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="formules">Formules</h2>
+
+<p>$U=R\times I$ 
+$P=U\times I$
+$P=\dfrac{U^2}{R}$</p>
+
+<p><img src="https://i.imgur.com/WG76FdM.png" alt="" /></p>
+
+<hr />
+
+<h3 id="oefeningen">Oefeningen:</h3>
+
+<p>Door een Weerstand [R] van $10\Omega$, loopt een stroom [I] van 3A. Wat is de spanning [U] die over deze weerstand zal staan.</p>
+
+<p>:::spoiler
+$U=R\times I=10\Omega\times 3A = 30V$
+:::</p>
+
+<hr />
+
+<h3 id="oefeningen-1">Oefeningen:</h3>
+
+<p>Door een Weerstand [R] van $10\Omega$, loopt een stroom [I] van 6A. Wat is de spanning [U] die over deze weerstand zal staan.</p>
+
+<p>:::spoiler
+$U=R\times I=10\Omega\times 6A = 60V$
+:::</p>
+
+<hr />
+
+<h3 id="oefeningen-2">Oefeningen:</h3>
+
+<p>Een spanning [U] van $12V$ wordt belast met een weerstand [R] van $12\Omega$. Hoe groot is de stroom [I] door de weerstand?</p>
+
+<p>:::spoiler
+$I=\dfrac{U}{R}=\dfrac{12V}{12\Omega}=1A$
+:::</p>
+
+<hr />
+
+<h3 id="oefeningen-3">Oefeningen:</h3>
+
+<p>Een spanning [U] van $24V$ wordt belast met een weerstand [R] van $12\Omega$. Hoe groot is de stroom [I] door de weerstand?</p>
+
+<p>:::spoiler
+$I=\dfrac{U}{R}=\dfrac{24V}{12\Omega}=2A$
+:::</p>
+
+<hr />
+
+<h3 id="besluit">Besluit</h3>
+<ul>
+  <li>Als de spanning stijgt, dan stijgt de stroom.</li>
+  <li>Als de weerstand stijgt, dan daalt de stroom door de weerstand.</li>
+  <li>Als de stroom door de weerstand vergroot, dan stijgt de spanning over de weerstand.</li>
+</ul>
+
+<hr />
+
+<h2 id="apparatuur">Apparatuur</h2>
+
+<hr />
+
+<h3 id="voeding">Voeding</h3>
+
+<p><img src="https://i.imgur.com/EfdzADo.jpg =x450" alt="" /></p>
+
+<hr />
+
+<p><img src="https://i.imgur.com/YYCaGJY.jpg =x450" alt="" /></p>
+
+<hr />
+
+<p><img src="https://i.imgur.com/3CXBEnJ.png" alt="" /></p>
+
+<hr />
+
+<h3 id="multimeter">Multimeter</h3>
+
+<p><img src="https://i.imgur.com/Pu5yQ2b.jpg =x450" alt="" /></p>
+
+<hr />
+
+<h4 id="spanning-meten">Spanning meten</h4>
+
+<p><img src="https://i.imgur.com/KOL5HQ9.png" alt="" /></p>
+
+<hr />
+
+<h4 id="weerstand-meten">Weerstand meten</h4>
+
+<p><img src="https://i.imgur.com/LhnUkjk.png" alt="" /></p>
+
+<hr />
+
+<h4 id="stroom-meten">Stroom meten</h4>
+
+<p><img src="https://i.imgur.com/CrI4iHP.png" alt="" /></p>
+
+<hr />
+
+<h4 id="diode-teststand">Diode teststand</h4>
+
+<p><img src="https://i.imgur.com/oTykP5E.png" alt="" /></p>
+
+<p>note: Bron en meer info: https://www.wikihow.com/Test-a-Silicon-Diode-with-a-Multimeter</p>
+
+<hr />
+
+<h3 id="oscilloscoop">Oscilloscoop</h3>
+
+<p><img src="https://i.imgur.com/bpxnHJi.png" alt="" /></p>
+
+<hr />
+
+<p><a href="https://www.youtube.com/watch?v=DgYGRtkd9Vs">https://www.youtube.com/watch?v=DgYGRtkd9Vs</a></p>
+
+<hr />
+
+<h3 id="functie-generator">Functie generator</h3>
+
+<p><img src="https://i.imgur.com/kogYukI.png" alt="" /></p>
+
+<hr />
+
+<p><img src="https://i.imgur.com/O5YsiBx.png" alt="" /></p>
+
+<hr />
+
+<h2 id="componenten">Componenten</h2>
+
+<p><img src="https://i.imgur.com/BfSNVJS.jpg =x450" alt="" /></p>
+
+<hr />
+
+<h3 id="weerstanden">Weerstanden</h3>
+
+<p><img src="https://i.imgur.com/VFHvpw6.png" alt="" />
+<a href="http://tinyurl.com/w2k7oub">Simulatie</a>
+note: een weerstand zet al zijn vermogen om in warmte.</p>
+
+<hr />
+
+<h4 id="regelbaar">Regelbaar</h4>
+<p><img src="https://i.imgur.com/zbNxWt9.png =x450" alt="" /></p>
+
+<p><a href="http://tinyurl.com/tufnn9t">Simulatie</a></p>
+
+<hr />
+
+<h4 id="variabel">Variabel</h4>
+<ul>
+  <li>Licht: LDR</li>
+  <li>Warmte
+    <ul>
+      <li>NTC</li>
+      <li>PTC</li>
+    </ul>
+  </li>
+  <li>Flex</li>
+  <li>Voltage</li>
+</ul>
+
+<hr />
+
+<h5 id="ldr">LDR</h5>
+
+<p><img src="https://i.imgur.com/T3lwc66.png" alt="" /></p>
+
+<hr />
+
+<h5 id="temp-gevoelig">TEMP gevoelig</h5>
+
+<p><img src="https://i.imgur.com/yK1emMa.png" alt="" /></p>
+
+<hr />
+
+<h5 id="flex">Flex</h5>
+
+<p><img src="https://i.imgur.com/5rIMdT1.png =x450" alt="" /></p>
+
+<hr />
+
+<h4 id="kleurcodes">Kleurcodes</h4>
+
+<p><img src="https://i.imgur.com/4U3zt3g.png" alt="" /></p>
+
+<hr />
+
+<h3 id="bron">Bron</h3>
+
+<p><img src="https://i.imgur.com/zrhCGJM.png" alt="" /></p>
+
+<p>note:
+Dit is het symbool voor een DC voeding zoals eerder aangetoond bij de meet apparatuur.</p>
+
+<hr />
+
+<h3 id="schakelaar">Schakelaar</h3>
+
+<p><img src="https://i.imgur.com/Nhr4AW4.jpg" alt="" /></p>
+
+<hr />
+
+<h4 id="soorten">Soorten</h4>
+
+<ul>
+  <li>Normaal open / gesloten</li>
+  <li>Bistabiel / drukknop</li>
+  <li>Meer polig</li>
+  <li>Wisselschakelaar (<a href="https://en.wikipedia.org/wiki/Switch#Contact_terminology">SPDT</a>)</li>
+</ul>
+
+<hr />
+
+<h3 id="spoel">Spoel</h3>
+
+<p><img src="https://i.imgur.com/aTqtuBV.png =x450" alt="" /></p>
+
+<hr />
+
+<p><img src="https://i.imgur.com/VbfKVur.png" alt="" /></p>
+
+<hr />
+
+<p><a href="http://tinyurl.com/sgbx9eg">Simulatie</a></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Grootheid</th>
+      <th>Symbool</th>
+      <th>Eenheid</th>
+      <th>Symbool</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Zelfinductie</td>
+      <td>$L$</td>
+      <td>Henry</td>
+      <td>$H$</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h3 id="condensator">Condensator</h3>
+
+<p><img src="https://i.imgur.com/B9tiENX.png" alt="" /></p>
+
+<hr />
+
+<p><img src="https://i.imgur.com/WqjZjap.png" alt="" /></p>
+
+<hr />
+
+<table>
+  <thead>
+    <tr>
+      <th>Grootheid</th>
+      <th>Symbool</th>
+      <th>Eenheid</th>
+      <th>Symbool</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Capaciteit</td>
+      <td>$C$</td>
+      <td>Farad</td>
+      <td>$F$</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h3 id="relais">Relais</h3>
+
+<p><img src="https://i.imgur.com/hMLZmLR.png" alt="" /></p>
+
+<hr />
+
+<p><img src="https://i.imgur.com/zG2AvL2.png" alt="" /></p>
+
+<hr />
+
+<h3 id="diode">Diode</h3>
+
+<p><img src="https://i.imgur.com/cgdHbYr.png" alt="" /></p>
+
+<hr />
+
+<p><img src="https://i.imgur.com/7B0dXIm.png" alt="" /></p>
+
+<hr />
+
+<p><img src="https://i.imgur.com/GWepjAY.png" alt="" /></p>
+
+<hr />
+
+<p><img src="https://i.imgur.com/H1oJ0RT.png =x450" alt="" /></p>
+
+<p><a href="http://tinyurl.com/y72cv36u">Simulatie</a></p>
+
+<hr />
+
+<h4 id="kort-samengevat">Kort samengevat</h4>
+<ul>
+  <li>Laat de stroom door in één richting</li>
+  <li>Gaat pas in geleiding als de minimum voorwaartse spanning is bedreikt
+<a href="http://tinyurl.com/t64hvmh">Simulatie</a></li>
+</ul>
+
+<hr />
+
+<h4 id="andere-types">Andere types</h4>
+<ul>
+  <li>Zenerdiode (stabilisator)</li>
+  <li>Schotkeydiode (lagere doorlaat spanning)</li>
+  <li>Photodiode (licht gevoelige diode)</li>
+</ul>
+
+<hr />
+
+<h3 id="led">LED</h3>
+
+<p><img src="https://2.bp.blogspot.com/-zFzKWldyzss/W5rL1Z_MzLI/AAAAAAAACTU/pQ0auJxB1_YwWNtBzwcUpixS2u5DYVI4QCLcBGAs/s1600/Arduino_LED.gif" alt="" /></p>
+
+<hr />
+
+<p><img src="https://i.imgur.com/8vpWjiw.png =x450" alt="" /></p>
+
+<hr />
+
+<h3 id="transistor">Transistor</h3>
+
+<p><img src="https://i.imgur.com/hOfTksd.png =x450" alt="" /></p>
+
+<hr />
+
+<h4 id="aansluitingen">Aansluitingen</h4>
+<p>C: Collector
+B: Basis
+E: Emitter
+<img src="https://i.imgur.com/LhmH9Sc.png" alt="" /></p>
+
+<hr />
+
+<p><img src="https://www.infootec.net/wp-content/uploads/2015/04/Transistor_animation-1.gif" alt="" /></p>
+
+<hr />
+
+<h4 id="werking-transistor">Werking transistor</h4>
+
+<p><img src="https://i.imgur.com/6zkF2eV.png =x250" alt="" /></p>
+
+<p>$I_c=I_b\times H_{fe}$
+$I_e=I_c+I_b$</p>
+
+<p><a href="http://tinyurl.com/yx39cser">Simulatie</a></p>
+
+<hr />
+
+<p><img src="https://i.imgur.com/i1i228B.png" alt="" /></p>
+
+<hr />
+
+<p><a href="https://www.sparkfun.com/datasheets/Components/BC546.pdf">Voorbeeld transistor</a></p>
+
+<hr />
+
+<h4 id="summary">Summary</h4>
+<ul>
+  <li>$H_{FE}$ DC current gain</li>
+  <li>$V_{BE}$ Base emitter forward voltage</li>
+  <li>$I_C$ Collector Current</li>
+</ul>
+
+<hr />
+
+<p><a href="http://www.electroniccircuits.be/?page_id=345">Meer info</a></p>
+
+<hr />
+
+<h3 id="mosfet">Mosfet</h3>
+
+<p><img src="https://i.imgur.com/9D3g5lj.png =x450" alt="" /></p>
+
+<hr />
+
+<p><img src="https://i.imgur.com/RqkpvRf.png" alt="" /></p>
+
+<hr />
+
+<p><a href="http://tinyurl.com/y8f9humm">Simulatie</a></p>
+
+<hr />
+
+<p><a href="https://www.sparkfun.com/products/10213">Example mosfet</a></p>
+
+<hr />
+
+<h4 id="summary-1">Summary</h4>
+<ul>
+  <li>$V_{DS}$ Drain-Source Breakdown Voltage</li>
+  <li>$V_{GS(th)}$ Gate Threshold Voltage</li>
+  <li>$V_{GS(on)}$ Static Drain-Source On-Resistance</li>
+  <li>$I_D$ Drain Current</li>
+</ul>
+
+<hr />
+
+<p><a href="https://www.electronicshub.org/mosfet-as-a-switch/">more info</a></p>
+
+<hr />
+
+<h3 id="spanningsregelaar">Spanningsregelaar</h3>
+
+<p><img src="https://i.imgur.com/bps346c.png =x450" alt="" /></p>
+
+<hr />
+
+<p><img src="https://i.imgur.com/qAVOql6.png =x450" alt="" /></p>
+
+<hr />
+
+<h2 id="schakelingen">Schakelingen</h2>
+
+<hr />
+
+<h3 id="spanningsdeler">Spanningsdeler</h3>
+
+<p><img src="https://i.imgur.com/isea6gM.png =x450" alt="" /></p>
+
+<p><a href="http://tinyurl.com/qwqczmm">Simulaties</a></p>
+
+<hr />
+
+<h3 id="gebruik-van-een-schakelaar">Gebruik van een schakelaar</h3>
+
+<p><a href="http://tinyurl.com/w4v57mp">Simulatie</a></p>
+
+<hr />
+
+<h4 id="pull-down--pull-up">Pull Down &amp; Pull UP</h4>
+
+<p><img src="https://i.imgur.com/yFrzv4p.png =x450" alt="" /></p>
+
+<p><a href="http://tinyurl.com/wgcnaan">Simulaties</a></p>
+
+<hr />
+
+<h3 id="ompoolbeveiliging">Ompoolbeveiliging</h3>
+
+<p><img src="https://i.imgur.com/sHDMPba.png" alt="" />
+<a href="http://tinyurl.com/yx786nqn">Simulatie</a></p>
+
+<hr />
+
+<h3 id="clipping-and-clamping-diodes">Clipping and Clamping diodes</h3>
+
+<p><a href="http://tinyurl.com/rqqdovb">Simulatie</a></p>
+
+<hr />
+
+<h3 id="gebruik-van-een-led">Gebruik van een LED</h3>
+
+<p><img src="https://i.imgur.com/l2OK32S.jpg =x450" alt="" /></p>
+
+<hr />
+
+<h4 id="voorschakelweerstand">Voorschakelweerstand</h4>
+
+<p><img src="https://i.imgur.com/hl52ctI.png" alt="" /></p>
+
+<p><a href="http://tinyurl.com/rftlt8t">Simulatie</a></p>
+
+<p>note: waarom voorschakelweerstand?</p>
+
+<hr />
+
+<h4 id="voorschakelweerstand-berekening">Voorschakelweerstand: berekening</h4>
+<p>$U_R = \dfrac{Bronspanning - U_{LED}}{Stroom\ door\ LED}$</p>
+
+<p><img src="https://i.imgur.com/hl52ctI.png" alt="" /></p>
+
+<p>note:
+Power supply: 5V 
+Led voltage = 1.78V
+Led Current = 10mA</p>
+
+<p>Ur = 5V - 1.8V = 3.2V 
+R = U / I = 3.2V / 0.01A = 320$\Omega$</p>
+
+<hr />
+
+<h3 id="schakelen-van-een-grote-verbruiker-transistor--mosfet">Schakelen van een grote verbruiker (Transistor / Mosfet)</h3>
+
+<hr />
+
+<h4 id="transistor-als-schakelaar">Transistor als schakelaar</h4>
+
+<p>| $Ib = \dfrac{Ic}{Hfe}$ <br /> $U_{RB}=Uin-Ube$ <br /> $R_B=\dfrac{U_{RB}}{Ib}$     | <img src="https://i.imgur.com/jGBmxiZ.png =x250" alt="" />     |
+| —- | — |</p>
+
+<p><a href="http://tinyurl.com/w98sjs2">Simulatie en oefening</a></p>
+
+<hr />
+
+<h4 id="met-een-mosfet">Met een mosfet</h4>
+
+<p><img src="https://i.imgur.com/2r5ZYPb.png" alt="" /></p>
+
+<hr />
+
+<h5 id="1zoek-een-gepaste-mosfet">1.Zoek een gepaste mosfet</h5>
+
+<ul>
+  <li>$V_{GS(on)}$: grote van het stuursignaal</li>
+  <li>$V_{DS}$: De te schakelen spanning</li>
+  <li>$R_{DS(on)}$: Aan weerstand</li>
+  <li>$I_{D}$: De te schakelen stroom</li>
+</ul>
+
+<hr />
+
+<h5 id="1zoek-een-gepaste-mosfet-1">1.Zoek een gepaste mosfet</h5>
+
+<p>Bijvoorbeeld:</p>
+<ul>
+  <li>N-CH type mosfet</li>
+  <li>$I_D\ge5A$</li>
+  <li>$V_{DS} \ge 12V$</li>
+  <li>$V_{GS(on)} \le 5V$
+<a href="https://mou.sr/3ajeLqz">Resultaten</a>
+<a href="https://www.mouser.be/datasheet/2/916/PMV20XNEA-1320576.pdf">Gekozen examplaar</a></li>
+</ul>
+
+<hr />
+
+<h5 id="2bekijk-de-datasheet">2.Bekijk de datasheet</h5>
+
+<p><img src="https://i.imgur.com/aCpaECS.png" alt="" /> <img src="https://i.imgur.com/IceWcMz.png =x450" alt="" /></p>
+
+<hr />
+
+<p><a href="http://tinyurl.com/wdmqux3">Simulatie</a></p>
+
+<hr />
+
+<h3 id="schakelen-van-een-croquemonsieur-machine-relais">Schakelen van een croquemonsieur machine (relais)</h3>
+
+<p><img src="https://i.imgur.com/lB5lh4G.png =x450" alt="" /></p>
+
+<hr />
+
+<h4 id="belang-van-een-vrijloop-diode">Belang van een vrijloop diode</h4>
+
+<p><a href="http://tinyurl.com/rdtpzsz">Simulatie vrijloop diode</a></p>
+
+<p>note: let op de vrijloop diode, deze is er om de transistor / mosfet te beschermen</p>
+
+<hr />
+
+<p><a href="http://tinyurl.com/qmndgm4">Simulatie</a></p>
+
+<hr />
+
+<h3 id="motoren-dc-motoren">Motoren: DC motoren</h3>
+
+<p><img src="https://i.pinimg.com/originals/a5/8e/52/a58e52e2e5276330236c39cc1df11627.gif" alt="" /></p>
+
+<hr />
+
+<h3 id="motoren-servo-motoren">Motoren: Servo motoren</h3>
+
+<p><img src="https://lh3.googleusercontent.com/proxy/74OEgeDjzVRdwJpGnPrykW09-rxj6fkRG06TBdw3nNtto08G9taBRAT1z_c7FvvQ7N9kAz2Xil1g8feEj5Q85YrKeHH83s0dXrPTWzRGS7oYOmKjNjuD7YdFBYw" alt="" /></p>
+
+<hr />
+
+<h3 id="motoren-stappen-motoren">Motoren: Stappen motoren</h3>
+
+<p><img src="https://secureservercdn.net/198.71.233.106/k8u.855.myftpupload.com/wp-content/uploads/2019/12/STEPPER-2.gif" alt="" /></p>
+
+<hr />
+
+<h3 id="buzzer">Buzzer</h3>
+
+<p><img src="https://www.teachengineering.org/content/uoh_/lessons/uoh_piezo/uoh_piezo_lesson01_figure1.gif" alt="" /></p>
+
+<hr />
+
+<h1 id="opdracht">Opdracht</h1>
+
+<p>Denk na over:</p>
+<ul>
+  <li>de voeding van je project</li>
+  <li>de inputs (spanningsdelers of andere bescherming nodig?)</li>
+  <li>de outputs (versterking nodig met mosfets, transistors of relais?)</li>
+  <li>simuleer je berekende waarden</li>
+</ul>
+
+<hr />
+
+<h1 id="handige-links">Handige links</h1>
+<p><a href="http://falstad.com/circuit/circuitjs.html">Falstad Elektronica simulator</a>
+<a href="https://www.tinkercad.com/learn/circuits">Online Arduino simulator</a>
+&lt;!–
+Todo:</p>
+<ul>
+  <li>joystick retrogames</li>
+  <li>grote knoppen</li>
+  <li>smd switches</li>
+  <li>slide switches (thermolight)</li>
+  <li>toggle switches</li>
+  <li>LED sensor</li>
+</ul>
+
+<p>output</p>
+<ul>
+  <li>LED through hole</li>
+  <li>LED (package 1008?)</li>
+  <li>buzzers</li>
+  <li>motors</li>
+</ul>
+
+<p>Andere</p>
+<ul>
+  <li>FTDI scherm (retrogames)</li>
+  <li>smd weerstanden ledup kids (package 1008?)</li>
+  <li>Attiny 85 (ledup)</li>
+  <li>LEDS WORDEN WEL WARM</li>
+  <li>VOLTAGE REGULATORS</li>
+</ul>
+
+<p>–&gt;</p>
+:ET

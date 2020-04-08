@@ -6,6 +6,8 @@
 ++++++++++++++++++++++++++++++
 
 Starting with Git and GitHub
+https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html
+
 
 links used in the first section:
 https://biodata-club.github.io/githubPagesTutorial/#modifying-the-menu
@@ -22,6 +24,8 @@ https://jekyllrb.com/tutorials/navigation/
 -Jekyll navigations
 	https://jekyllrb.com/tutorials/navigation/
 
+Tutorial of Github
+https://www.youtube.com/watch?v=SWYqp7iY_Tc
 
 
 

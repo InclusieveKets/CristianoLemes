@@ -1,0 +1,66 @@
+-Teacher: Bruce Helsen
+
+KiCAD
+
+-history
+-terminology
+-prototype to endproduct
+-PCB (print circuit board) methodology
+-PCB design
+
+
+-history
+	methods to design circuit board
+		gaatjes print ()
+		handgetekende printplaat
+		teken software
+-terminology
+	multilayer printplaten
+		it has holes to connect the different lawers or attach component.
+	Through hole vs SMD (surface mount device)
+		SMD does not use holes in the PCB
+	Baantje/Trace/Track
+		trace: width x thickness (high)
+	Via
+		holes in a multilayer PCB
+	Copper fill / plane
+-van protype tot eindproduct
+	specificaties
+	calculations
+	schema
+	prototypen
+	verifieren
+	back to the drawing board
+	je design vereeuwigen
+	gaatjes print
+	Corosie bestendig maken
+-PCB productie methoden
+	Frezen
+		Nadelen
+		veel stof
+		Frezen verslijten snel door het print materiaal
+			Small bottom that break easily.
+		Traag (slow)
+	advantages of using the machine to draw the board circuit
+			Automatisch boren
+			board shape
+		it is possible to use laser print to design the PCB
+		(lichtgevoelige) fotossensitive boards
+		masker: kalkpapier; transparanten;
+		expose the PCB to ultravioleta light
+		need to put in water to clean residual
+	disadvantages
+		waterstofperoxide en zoutzuur
+		some methods require we to make the Via by ourselves
+	optional
+		solder mask
+		vertinnen
+		silkscreen: fancy option
+-Demo from Bruce
+	footprint: way the component will look like in the PCB.
+
+-KiCAD is used to design the PCB and falstad.com is used to simulate the circuit to check the variation of voltage and current.
+
+-Extra links
+	Tutorial KiCAD
+		https://docs.kicad-pcb.org/5.1.5/en/getting_started_in_kicad/getting_started_in_kicad.html

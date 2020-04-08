@@ -1,0 +1,135 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 5E84C68E
+P 3550 3550
+F 0 "R?" H 3620 3596 50  0000 L CNN
+F 1 "R" H 3620 3505 50  0000 L CNN
+F 2 "" V 3480 3550 50  0001 C CNN
+F 3 "~" H 3550 3550 50  0001 C CNN
+	1    3550 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E84CAFE
+P 3550 3550
+F 0 "R?" H 3620 3596 50  0000 L CNN
+F 1 "R" H 3620 3505 50  0000 L CNN
+F 2 "" V 3480 3550 50  0001 C CNN
+F 3 "~" H 3550 3550 50  0001 C CNN
+	1    3550 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E84CB4F
+P 4000 3200
+F 0 "R?" V 3793 3200 50  0000 C CNN
+F 1 "R" V 3884 3200 50  0000 C CNN
+F 2 "" V 3930 3200 50  0001 C CNN
+F 3 "~" H 4000 3200 50  0001 C CNN
+	1    4000 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E84CF06
+P 3450 2250
+F 0 "R?" H 3520 2296 50  0000 L CNN
+F 1 "R" H 3520 2205 50  0000 L CNN
+F 2 "" V 3380 2250 50  0001 C CNN
+F 3 "~" H 3450 2250 50  0001 C CNN
+	1    3450 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5E84DAA9
+P 3450 2550
+F 0 "D?" V 3489 2433 50  0000 R CNN
+F 1 "LED" V 3398 2433 50  0000 R CNN
+F 2 "" H 3450 2550 50  0001 C CNN
+F 3 "~" H 3450 2550 50  0001 C CNN
+	1    3450 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5E85043C
+P 4150 2450
+F 0 "D?" V 4104 2529 50  0000 L CNN
+F 1 "1N4148" V 4195 2529 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4150 2275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4150 2450 50  0001 C CNN
+	1    4150 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 5E852703
+P 2050 2600
+F 0 "J?" H 2158 2881 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 2158 2790 50  0000 C CNN
+F 2 "" H 2050 2600 50  0001 C CNN
+F 3 "~" H 2050 2600 50  0001 C CNN
+	1    2050 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC847 Q?
+U 1 1 5E8531D5
+P 4700 3200
+F 0 "Q?" H 4891 3246 50  0000 L CNN
+F 1 "BC847" H 4891 3155 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4900 3125 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 4700 3200 50  0001 L CNN
+	1    4700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5E855884
+P 6050 2200
+F 0 "J?" H 6130 2192 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 6130 2101 50  0000 L CNN
+F 2 "" H 6050 2200 50  0001 C CNN
+F 3 "~" H 6050 2200 50  0001 C CNN
+	1    6050 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3200 4500 3200
+Wire Wire Line
+	3550 3400 3550 3200
+Wire Wire Line
+	3550 3200 3850 3200
+Connection ~ 3550 3400
+Wire Wire Line
+	3450 2700 4150 2700
+Wire Wire Line
+	4150 2700 4150 2600
+Wire Wire Line
+	3450 2100 4150 2100
+Wire Wire Line
+	4150 2100 4150 2300
+Wire Wire Line
+	4800 3000 4800 2700
+Wire Wire Line
+	4800 2700 4150 2700
+Connection ~ 4150 2700
+$EndSCHEMATC

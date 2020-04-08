@@ -12,3 +12,11 @@ Softwares:
 
 assignment of the week:
 	try to do something that is not possible to do with other machines (laser cut);
+
+Interesting links:
+	Onshape - neem educational of maker licentie
+		https://www.onshape.com/sign-up
+	Neil Gerschenfeld over CAD tekeningen maken - in het Engels
+		https://vimeo.com/389847907
+	Neil Gerschenfeld over 3D printen en scannen - in het Engels
+		https://vimeo.com/394033225

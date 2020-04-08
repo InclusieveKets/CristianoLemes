@@ -1,0 +1,49 @@
+I"ž
+<h1 id="initial-class-fabzero">Initial Class FabZero</h1>
+
+<p><img src="/assets/images/section01_FabLab.png" alt="FabLab" /></p>
+
+<p><a href="./..">Back</a></p>
+
+<h3 id="introduction-to-fabzero">Introduction to FabZero</h3>
+
+<ul>
+  <li>Who founded, when it was created, where it exists.</li>
+  <li>what is expected during the course.</li>
+  <li>Belangrijk: begin to think about the final project!</li>
+</ul>
+
+<h3 id="overview-of-git-and-github">Overview of Git and GitHub</h3>
+
+<ul>
+  <li>hystory of Git and GitHub.</li>
+  <li>important features.</li>
+  <li>show examples.</li>
+</ul>
+
+<h3 id="testing-features-of-github">Testing features of Github</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>New text box design.
+</code></pre></div></div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+	<span class="nt">&lt;header&gt;</span>Title of the web page<span class="nt">&lt;/header&gt;</span>
+	<span class="nt">&lt;body&gt;</span>
+		Web site content.
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Calculator</span> 
+<span class="o">{</span>
+	<span class="kd">private</span> <span class="nc">Integer</span> <span class="n">a</span><span class="o">,</span> <span class="n">b</span><span class="o">,</span> <span class="n">result</span><span class="o">;</span>
+	<span class="kd">public</span> <span class="nf">Calculator</span><span class="o">(){}</span>
+	<span class="kd">public</span> <span class="nc">Integer</span> <span class="nf">sum</span><span class="o">(</span><span class="nc">Integer</span> <span class="n">a</span><span class="o">,</span> <span class="nc">Integer</span> <span class="n">b</span><span class="o">){</span>
+		<span class="k">this</span><span class="o">.</span><span class="na">a</span> <span class="o">=</span> <span class="n">a</span><span class="o">;</span>
+		<span class="k">this</span><span class="o">.</span><span class="na">b</span> <span class="o">=</span> <span class="n">b</span><span class="o">;</span>
+		<span class="k">this</span><span class="o">.</span><span class="na">result</span> <span class="o">=</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="o">;</span>
+		<span class="k">return</span> <span class="k">this</span><span class="o">.</span><span class="na">result</span><span class="o">;</span>
+	<span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+:ET

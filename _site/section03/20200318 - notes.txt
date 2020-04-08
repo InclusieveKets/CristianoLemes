@@ -1,0 +1,22 @@
+Softwares:
+-You can find KiCAD for any desired platform here: https://www.kicad-pcb.org/download/
+	INSTALL FOR NEXT WEEK.
+-Tinkercad: https://www.tinkercad.com
+-Cura https://ultimaker.com/software/ultimaker-cura last version 4.5
+-Onshape: https://www.onshape.com
+-this is a good source to learn about FDM files: ormat: https://all3dp.com/1/3d-printer-file-format/
+-site for helping with 3D printers: https://all3dp.com
+-cura tree support: https://manufacturingstories.com/discover-ultimaker-cura-3-2-with-new-tree-supports-ultimaker/ 
+
+-the result of a 3D printer always need extra work (take support or make it clean)
+
+assignment of the week:
+	try to do something that is not possible to do with other machines (laser cut);
+
+Interesting links:
+	Onshape - neem educational of maker licentie
+		https://www.onshape.com/sign-up
+	Neil Gerschenfeld over CAD tekeningen maken - in het Engels
+		https://vimeo.com/389847907
+	Neil Gerschenfeld over 3D printen en scannen - in het Engels
+		https://vimeo.com/394033225
