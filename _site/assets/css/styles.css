@@ -12,7 +12,7 @@ body { color: black; background-color: white; font-family: verdana, helvetica, a
 
 .subHeader a:hover { text-decoration: underline; }
 
-#menu { width: 10em; min-height: 39em; float: left; clear: left; border-right: 1px solid #999999; background-color: #B0E0E6; padding: 2mm 2mm 2mm 2mm; }
+#menu { width: 15em; min-height: 39em; float: left; clear: left; border-right: 1px solid #999999; background-color: #B0E0E6; padding: 2mm 2mm 2mm 2mm; }
 
 #menu div { border-bottom: 1px solid #999999; }
 

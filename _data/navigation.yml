@@ -20,7 +20,27 @@
   group: project
 
 - name: Robotic Arm
+  url: /project/robotic_arm_ex
+  group: project
+
+- name: Final project
+  url: /project
+  group: project
+
+- name: 01 - Robotic Arm
   url: /project/robotic_arm
+  group: project
+
+- name: 02 - Vehicle
+  url: /project/vehicle
+  group: project
+
+- name: 03 - Image Recognition
+  url: /project/img_recognition
+  group: project
+
+- name: 04 - Mobile App
+  url: /project/mobile_app
   group: project
 
 - name: Section 01

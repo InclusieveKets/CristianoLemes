@@ -1,0 +1,21 @@
+I"¤<h1 id="introduction">Introduction</h1>
+
+<p>The idea of the final project for the Fabzero course is to design a robotic arm that is able to recognize an object and take it dropping off in a place to be defined later.
+This project differs from the existing ones because integrate the robotic arm with a vehicle and recognize the object that it should take it.
+If the time allows, an artificial inteligence can be integrate in the vehicle to turn it autonomous.</p>
+
+<p>This project is split in five main parts.
+Some of them has sub tasks to make it easier the design of this project.</p>
+<ul>
+  <li>Design the robotic arm.
+    <ul>
+      <li>Start with an arm with two points of movement.</li>
+      <li>Include as much point of movement as necessary.</li>
+    </ul>
+  </li>
+  <li>Design the mobile vehicle.</li>
+  <li>Design the image recognition.</li>
+  <li>Design a mobile app.</li>
+  <li>Integrate all parts together.</li>
+</ul>
+:ET

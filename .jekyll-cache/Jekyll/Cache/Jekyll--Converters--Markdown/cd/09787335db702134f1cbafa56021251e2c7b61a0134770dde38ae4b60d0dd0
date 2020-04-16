@@ -1,0 +1,29 @@
+I"Q
+<h1 id="overview">Overview</h1>
+
+<p>This page meant to bring inspiration for desigining a robotic arm as final project for the FabZero course.</p>
+
+<h2 id="existing-robotic-arm-projects">Existing robotic arm projects</h2>
+
+<p>It is possible to find several projects of robotic arm on the internet.
+Here I will list some I have found.</p>
+
+<ul>
+  <li><a href="https://mearm.com">MeArm</a>: Open source robot arm designed using small number of components.</li>
+</ul>
+
+<p><img src="http://localhost:4000/assets/images//mearm_wood.png" alt="mearm_wood" /></p>
+
+<p><img src="../assets/images/mearm_wood.png" alt="mearm_wood" /></p>
+
+<ul>
+  <li><a href="">How to Mechatronics</a>: This youtube channel offers two very nice ideas of robotic arm build using the concepts learned in the classes.
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=_B3gWd3A_SI&amp;t=316s">Static arm</a>): the arm is fixed in the ground and have 4 points of movements. It uses arduino to decide about the movements of the arm and smartphone app to request the arm to move.</li>
+      <li><a href="https://www.youtube.com/watch?v=LBNRGBY5zN8">Mobile arm</a>: It is the same “Static arm” but now integrated in a mobile vehicle. The mobile app has been changed because there was a problem of integrating some components with the arduino.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>*</p>
+:ET
