@@ -11,6 +11,18 @@
 			{% endif %}
 		{% endfor %}
 		<hr/>
+		Final project
+		<br/>
+		{% for item in site.data.navigation %}
+			{% if item.group == "project" %}
+				{% assign link = item.url | absolute_url %}
+				&ensp;+<a href="{{ link }}" {% if page.url == link %}class="current"{% endif %}>
+					{{ item.name }}
+				</a>
+				<br/>
+			{% endif %}
+		{% endfor %}
+		<hr/>
 		Sections
 		<br/>
 		{% for item in site.data.navigation %}

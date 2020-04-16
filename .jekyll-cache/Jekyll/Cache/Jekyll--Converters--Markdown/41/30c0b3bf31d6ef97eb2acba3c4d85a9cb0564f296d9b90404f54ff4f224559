@@ -1,0 +1,36 @@
+I"Ç	<h1 id="overview">Overview</h1>
+
+<p>This page meant to include extra material studied for the FabZero course.</p>
+
+<h2 id="useful-links-for-the-final-project">Useful links for the final project</h2>
+
+<p>Choose the topic for the final project might be challenge and time consuming.
+Find the right project that will enable to apply the knowledge acquired during the course and at the same time be enjoyable can be stressful.
+For that, some tips might help us to find the right topic for our final projects.
+<a href="https://www.elprocus.com/">El-Pro-cus</a> provides <a href="https://www.elprocus.com/how-to-choose-electrical-and-electronics-projects-ideas-engineering-students/">an article</a> about relevants tips for choosing projects ideas for the final project.
+The Youtube channel <a href="https://www.youtube.com/channel/UCiIYevEsvO8rp1n_5QgldZg">I-Tech</a> has a video with the <a href="https://www.youtube.com/watch?v=fI073sITRAs">top 10 arduino projects</a> that might be interessant for inspiring to design your own project.</p>
+
+<p>Another website that brings good information about eletronic project is (Electronic Hub)[https://www.electronicshub.org/].
+They provide several articles with a full list of diverse projects including their description and electronic circuit that might solve the problem.
+Following the list of articles I have found, however they are only different ways of organizing the projects, which means there are several overlap of projects between these links.</p>
+
+<ul>
+  <li><a href="https://www.electronicshub.org/electronics-projects-ideas/">150+ Electronics Projects</a></li>
+  <li><a href="https://www.electronicshub.org/ece-projects-ideas/">150+ ECE Projects</a></li>
+  <li><a href="https://www.electronicshub.org/eee-projects-ideas/">EEE Projects</a></li>
+  <li><a href="https://www.electronicshub.org/electronics-mini-project-circuits/">200+ Mini Projects</a></li>
+  <li><a href="https://www.electronicshub.org/raspberry-pi-projects/?ref=sidebar">101+ Raspberry Pi Projects</a></li>
+  <li><a href="https://www.electronicshub.org/robotics-projects-ideas/?ref=sidebar">100+ Robotics Projects</a></li>
+</ul>
+
+<h2 id="smart-robotic-arm">Smart robotic arm</h2>
+
+<p>It is possible to find several projects of robotic arm on the internet.
+Here I will list some I have found.</p>
+
+<ul>
+  <li><a href="https://mearm.com">MeArm</a>: Open source robot arm designed using small number of components.
+<img src="/assets/images/mearm_wood.png" alt="mearm_wood" /></li>
+</ul>
+
+:ET
