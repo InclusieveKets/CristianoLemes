@@ -5,7 +5,7 @@ title: Section 01 - Introduction to FabZero
 
 # Initial Class FabZero
 
-![FabLab](/assets/images/section01_FabLab.png)
+![FabLab](../assets/images/section01_FabLab.png)
 
 
 [Back](./..)
