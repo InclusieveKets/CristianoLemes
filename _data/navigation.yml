@@ -15,6 +15,14 @@
   url: /help
   group: general
 
+- name: General Notes
+  url: /project/general_notes
+  group: project
+
+- name: Robotic Arm
+  url: /project/robotic_arm
+  group: project
+
 - name: Section 01
   url: /section01
   group: sections
