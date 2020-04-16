@@ -132,4 +132,48 @@ Wire Wire Line
 Wire Wire Line
 	4800 2700 4150 2700
 Connection ~ 4150 2700
+$Comp
+L power:GND #PWR?
+U 1 1 5E85F1FA
+P 3550 3800
+F 0 "#PWR?" H 3550 3550 50  0001 C CNN
+F 1 "GND" H 3555 3627 50  0000 C CNN
+F 2 "" H 3550 3800 50  0001 C CNN
+F 3 "" H 3550 3800 50  0001 C CNN
+	1    3550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E85F90F
+P 2250 2700
+F 0 "#PWR?" H 2250 2450 50  0001 C CNN
+F 1 "GND" H 2255 2527 50  0000 C CNN
+F 2 "" H 2250 2700 50  0001 C CNN
+F 3 "" H 2250 2700 50  0001 C CNN
+	1    2250 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E860052
+P 4800 3800
+F 0 "#PWR?" H 4800 3550 50  0001 C CNN
+F 1 "GND" H 4805 3627 50  0000 C CNN
+F 2 "" H 4800 3800 50  0001 C CNN
+F 3 "" H 4800 3800 50  0001 C CNN
+	1    4800 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 3800 3550 3700
+Connection ~ 3550 3700
+Wire Wire Line
+	4800 3800 4800 3400
+Text Label 2400 2600 0    50   ~ 0
+Control
+Wire Wire Line
+	2250 2600 2400 2600
+Text Label 3550 3200 2    50   ~ 0
+Control
 $EndSCHEMATC
