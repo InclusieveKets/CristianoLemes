@@ -1,0 +1,46 @@
+-Teacher: Benny Malengier
+
+Bases of Arduino
+
+-open source computer platform
+	purpose: facilitate microcontroller applications.
+		fisical computing;
+-first version 2005
+-It can connect several eletronics components and can host also software;
+-microcontroller: contains everything the arduino need to works;
+	ATmega328 long new version;
+-if using USB and Vin (input energy), USB is only for communication;
+	Vin and USB cannot be connected to two sources with their own ground pin;
+-NanoArduino consumes a lot of energy;
+-Lilypad and Flora
+-Arduino is open source and open hardware;
+
+Breadboard
+-important to read the datasheet of the component using to use the right voltage;
+
+
+Programming (arduino IDE)
+-Sketch: arduino programm;
+-select the type of arduino and port;
+
+Digital pins can be used as input data (0 or 1);
+	be sure the voltage that the digital pin will generate to use the right value;
+
+Effect trigger a function that we want after a defined time;
+
+-task
+	combine servo, LED and button
+	important to combine input and output;
+
+-Extra links
+	https://ingegno.be/realisations/blockly4arduino.html
+		link with examples to practice designing small projects with Arduino.
+	https://blokkencode.ingegno.be/
+		support the design of arduino code, providing a drag and drop design of code.
+	https://www.tinkercad.com/ - virtual arduino to test the program.
+		user: tinkercad@ingegno.be
+		password: tinkercad56
+
+slides from the class
+	https://docs.google.com/presentation/d/1zYx737t4vMhnM_muppOEAxIqCsfH3cSezR0UuKX4VDY/edit#slide=id.g50ac80208f_0_0
+	https://docs.google.com/document/d/1SziPOwcs6eyHoD8xQqev3XAeu9lv2lJ2GBzCk7QCwng/edit
