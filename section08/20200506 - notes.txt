@@ -1,0 +1,34 @@
+-Teacher: Amy
+
+Materials and design
+
+-slide 46: it is ideal to present 3 prototypes to customer choose the best one; bringing one the customer will not say they did not like; two is not enough options; three enable the customer like one including features from the others.
+
+material
+-ABS
+	it can support heat from eletronics stuffs.
+	perfect if necessary make holes after done.
+-PLA
+	good for peaces that need to be connected, like gears.
+
+-avoid mirrors or anything that reflects in a laser cut machine.
+
+-Extra links
+	MIT App Inventor: https://appinventor.mit.edu/explore/get-started
+
+slides from the class
+	
+
+assignement: answer the questions for next week.
+
+Possible planning for the next weeks:
+- wed 13 may: Wildcard week: App inventor
+- wed 20 may: Etching and milling
+- Zat 23 may: AI (part 1)
+- Wed 27 may: open lab
+- Zat 30 may: AI (part 2)
+- Wed 3 June: open lab or embroidery
+- Zat 6 june: IOT 
+- Wed 10 june: embroidery or open lab
+- wed 17 june: Project week
+- wed 24 june: project presentation

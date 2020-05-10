@@ -70,3 +70,7 @@
 - name: Section 07
   url: /section07
   group: sections
+
+- name: Section 08
+  url: /section08
+  group: sections

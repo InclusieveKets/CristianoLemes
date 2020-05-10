@@ -135,6 +135,27 @@ body {
   padding: 0.5ex 0 0.5ex 1ex;
 }
 
+#content table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+
+#content table td, #content table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#content table tr:nth-child(even){background-color: #f2f2f2;}
+
+#content table tr:hover {background-color: #ddd;}
+
+#content table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #191970;
+  color: white;
+}
 
 table.search {
 	margin: 1em 1ex 2em 1ex;
