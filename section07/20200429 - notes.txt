@@ -1,0 +1,35 @@
+-Teacher: Benny Malengier
+
+Bases of Python
+
+library: import numpy 
+			for list manipulation like matlab
+data type set will keep only one element, if adding an existing element.
+data type dictionary: implementation of hashmap
+
+-Extra links
+	https://docs.google.com/document/d/1syMNV7y8MPgtqAvjk7uyvWANgUx0UA5mQLa3el6UzUQ/edit?usp=sharing
+	Colab Google: https://colab.research.google.com/
+	Trinket: https://trinket.io/
+			https://trinket.io/mission-zero#
+	Create.withcode: https://create.withcode.uk/
+	Sense Hat Examples: https://github.com/astro-pi/python-sense-hat/blob/master/examples/README.md
+	OpenCV modules: https://docs.opencv.org/master/
+
+slides from the class
+	https://docs.google.com/presentation/d/1Pz5g-dN1h34CTJmncum26wVAJ9msd-Y4_j582E-M26c/edit?usp=sharing
+
+assignement: small python code.
+
+Possible planning for the next weeks:
+- wed 6 may: Materials and design
+- wed 13 may: Wildcard week: App inventor
+- wed 20 may Etching and milling
+- Zat 23 may: AI (part 1)
+- Wed 27 may: open lab
+- Zat 30 may: AI (part 2)
+- Wed 3 June: open lab or embroidery
+- Zat 6 june: IOT 
+- Wed 10 june: embroidery or open lab
+- wed 17 june: Project week
+- wed 24 june: project presentation
