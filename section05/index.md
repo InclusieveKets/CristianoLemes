@@ -18,4 +18,4 @@ KiCAD take advantage of the circuit designed by this tool and allows to create a
 
 ## Websites
 
-[Tutorial KiCAD](https://docs.kicad-pcb.org/5.1.5/en/getting_started_in_kicad/getting_started_in_kicad.html)
+* [Tutorial KiCAD](https://docs.kicad-pcb.org/5.1.5/en/getting_started_in_kicad/getting_started_in_kicad.html)

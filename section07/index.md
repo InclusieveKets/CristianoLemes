@@ -83,8 +83,8 @@ for i in range(30):
 
 ## Websites
 
-[Colab Google](https://colab.research.google.com/)
-[Trinket](https://trinket.io/)
-[Create.withcode](https://create.withcode.uk/)
-[Sense Hat Examples](https://github.com/astro-pi/python-sense-hat/blob/master/examples/README.md)
-[OpenCV modules](https://docs.opencv.org/master/)
+* [Colab Google](https://colab.research.google.com/)
+* [Trinket](https://trinket.io/)
+* [Create.withcode](https://create.withcode.uk/)
+* [Sense Hat Examples](https://github.com/astro-pi/python-sense-hat/blob/master/examples/README.md)
+* [OpenCV modules](https://docs.opencv.org/master/)

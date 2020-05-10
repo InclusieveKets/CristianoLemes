@@ -57,7 +57,7 @@ void loop() {
 
 ## Websites
 
-[Arduino IDE](https://www.arduino.cc/en/Main/Software)
-[Examples of Arduino code](https://ingegno.be/realisations/blockly4arduino.html)
-[Drag and drop design of Arduino code](https://blokkencode.ingegno.be/)
-[Virtual Arduino to test the program](https://www.tinkercad.com/)
+* [Arduino IDE](https://www.arduino.cc/en/Main/Software)
+* [Examples of Arduino code](https://ingegno.be/realisations/blockly4arduino.html)
+* [Drag and drop design of Arduino code](https://blokkencode.ingegno.be/)
+* [Virtual Arduino to test the program](https://www.tinkercad.com/)
